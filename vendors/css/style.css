@@ -26,11 +26,7 @@
 
 /* Display end */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /* Navbar start */
 
@@ -171,3 +167,57 @@
     text-align: center;
 }
 /* Services end */
+
+/* Team start */
+
+#team{
+    background-color: #dedede4c;
+}
+
+#team .team-member{
+    display: flex;
+    justify-content: space-between;
+}
+#team .team-member .card .circle-image{
+    width: 33.333%;
+}
+#team .team-member .card .circle-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+/* Team end */
+
+
+/* Portfolio start */
+#portfolio{
+    margin: 40px 0;
+}
+#portfolio .portfolio-items .card .img-card{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+#portfolio .portfolio-items .card .img-card img{
+    width: 100%;
+    height: 100%;
+}
+#portfolio .portfolio-items .card .img-card .img-icon{
+    background-color: #ffc800;
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+#portfolio .portfolio-items .card .img-card .img-icon h1{
+    font-size: 100px;
+    color: #fff;
+}
+/* Portfolio end */

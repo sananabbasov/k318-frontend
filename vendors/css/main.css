@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-3{
+    width: 33.333;
+}
+.d-flex{
+    display: flex;
+}
+.box-container{
+    width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
