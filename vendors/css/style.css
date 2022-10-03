@@ -193,7 +193,8 @@
 
 /* Portfolio start */
 #portfolio{
-    margin: 40px 0;
+    padding: 40px 0;
+    background-color: #dedede4c;
 }
 #portfolio .portfolio-items .card .img-card{
     width: 300px;
@@ -214,6 +215,7 @@
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+    
 }
 
 #portfolio .portfolio-items .card .img-card .img-icon h1{
